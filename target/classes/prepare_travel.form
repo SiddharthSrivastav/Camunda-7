@@ -1,0 +1,43 @@
+{
+  "components": [
+    {
+      "label": "How much money do you have?",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_066hmhk",
+        "columns": null
+      },
+      "id": "Field_1hrlggx",
+      "key": "money",
+      "description": "How Much  you are keeping cash",
+      "validate": {
+        "required": true,
+        "pattern": "^-?\\d+(\\.\\d+)?$"
+      }
+    },
+    {
+      "label": "Where to?",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0w2tvbt",
+        "columns": null
+      },
+      "id": "Field_0gdvqoq",
+      "key": "country",
+      "description": "Country",
+      "validate": {
+        "pattern": "India|Nepal",
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "prepare_travel",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.25.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.21.0",
+  "schemaVersion": 16
+}

@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "label": "charges",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_066hmhk",
+        "columns": null
+      },
+      "id": "Field_1hrlggx",
+      "key": "money",
+      "description": "How Much it will be cost",
+      "validate": {
+        "required": true,
+        "pattern": "^-?\\d+(\\.\\d+)?$"
+      }
+    },
+    {
+      "label": "Where to?",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0w2tvbt",
+        "columns": null
+      },
+      "id": "Field_0gdvqoq",
+      "key": "country",
+      "description": "Country",
+      "validate": {
+        "pattern": "India|Nepal",
+        "required": true
+      }
+    },
+    {
+      "label": "what is the Price of Cab",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1hfq06e",
+        "columns": null
+      },
+      "id": "Field_0j9sx40",
+      "key": "cabCost",
+      "description": "for Bill",
+      "validate": {
+        "pattern": "^-?\\d+(\\.\\d+)?$"
+      }
+    }
+  ],
+  "type": "default",
+  "id": "cab",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.25.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.21.0",
+  "schemaVersion": 16
+}
